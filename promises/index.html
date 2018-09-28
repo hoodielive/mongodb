@@ -7,10 +7,19 @@
 <body>
     <button>Click!</button>
 
-    <script>
-        console.log( 
-            'game is starting';
-        )
+<script>
+  let counter = 0; 
+  document.querySelector('button').addEventListener('click', () => {
+    ++counter; 
+  });
+
+  setTimeout(() => {
+    if (counter > 5) {
+      alert('You won! Your clicks: ' + counter);
+    } else {
+      alert('Sorry you lost');
+    }, 2000) 
+  
     </script>
 </body>
 </html>
