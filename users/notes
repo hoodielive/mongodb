@@ -1,0 +1,13 @@
+time 
+
+Mocha starts.. 
+
+Tell Mongoose to connect to mongo. 
+
+-- wait -- 
+
+Mongoose connects to mongo.
+
+Connection successful? Run tests? 
+
+Connection failed? Show err. 
