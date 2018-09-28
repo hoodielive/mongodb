@@ -21,10 +21,10 @@
           resolve(); 
         } else {
           reject();  
-      }
-    }, 2000)
-  });
-  
+        }
+      }, 2000)
+    });
+  } 
 startGame() 
   .then(() => alert('You Win!'))
   .catch(() => alert('You Lost!'));
